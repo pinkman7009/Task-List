@@ -1,7 +1,7 @@
 # Task-List
 Simple task list app made using HTML, CSS and Javascript. Local storage has been used to save the data on the browser.
 
-# Features of the app 
+# Features
 
 ## 1. Adding a task 
 A task can be added using by clicking the Add Task button.
