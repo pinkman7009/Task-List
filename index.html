@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e4d5e98a9c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>TaskList</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div id="card">
+      <h2>Task List</h2>
+
+      <div id="task-form">
+
+        <div class="card-group">
+          
+          <label for="task">Task</label>
+          <input type="text" id="task">
+          
+        </div>
+  
+        <!-- <input type="submit" id="submit" value="Add Task"> -->
+        <button class="btn" id="add-task">Add Task</button>
+      </div>  
+      <h2>Tasks</h2>
+      <div class="card-group">
+        <label for="filer">Filter Tasks</label>
+        <input type="text" id="filter">
+      </div>
+
+      <ul class="collection">
+      </ul>
+      <button class="btn" id="clear-task">Clear Tasks</button>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
